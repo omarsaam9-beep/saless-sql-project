@@ -8,8 +8,8 @@ This project is an end-to-end SQL data pipeline designed to clean, transform, an
 ---
 
  🛠️ Tools & Technologies
-* **Database:** PostgreSQL[cite: 1]
-* **SQL Techniques:** CTEs, Window Functions, Aggregations, Data Cleaning, and Regex[cite: 1]
+* **Database:** PostgreSQL
+* **SQL Techniques:** CTEs, Window Functions, Aggregations, Data Cleaning, and Regex
 * **Environment:** pgAdmin 4
 
 ---
@@ -18,49 +18,54 @@ This project is an end-to-end SQL data pipeline designed to clean, transform, an
 
  1. Data Ingestion
 * Created raw sales table from the dataset.
-* Backed up original data to preserve raw input[cite: 1].
-**![Raw Data Structure](1.png)**[cite: 1]
+* Backed up original data to preserve raw input.
+**![Raw Data Structure](1.png)**
 
  2. Data Cleaning & Standardization
 * Removed irrelevant and corrupted columns.
-* Renamed columns for consistency and readability[cite: 1].
+* Renamed columns for consistency and readability.
 * Standardized schema structure.
-**![Column Standardization](2.png)**[cite: 1]
+**![Column Standardization](2.png)**
 
 3. Feature Engineering & Type Casting
-* Recalculated key financial metrics: **Total Sales, Revenue, Profit, Cost**[cite: 1].
-* Converted columns from `TEXT` to appropriate numeric and date types to ensure consistency[cite: 1].
-**![Feature Engineering](5.png)**[cite: 1]
+* Recalculated key financial metrics: **Total Sales, Revenue, Profit, Cost**
+* Converted columns from `TEXT` to appropriate numeric and date types to ensure consistency.
+**![Feature Engineering](5.png)**
  4. Data Quality Assurance
 * Replaced NULL categorical values with `"Unknown"`.
 * Applied average imputation for numeric fields.
-* Verified zero NULL values across all critical columns after the cleaning process[cite: 1].
-**![Data Quality Check](15.png)**[cite: 1]
+* Verified zero NULL values across all critical columns after the cleaning process.
+**![Data Quality Check](15.png)**
 
  5. Final Dataset
-* Created a clean analytical table: `sales_clean` optimized for reporting[cite: 1].
+* Created a clean analytical table: `sales_clean` optimized for reporting.
 
 ---
 
  📈 Key KPIs & Insights
-* **Total Revenue & Profit:** Extracted core business metrics[cite: 1].
-* **Regional Performance:** Identified that the USA leads in revenue while Germany shows higher profit efficiency[cite: 1].
-**![Main KPIs](18.png)**[cite: 1]
+* **Total Revenue & Profit:** Extracted core business metrics.
+* **Regional Performance:** Identified that the USA leads in revenue while Germany shows higher profit efficiency.
+**![Main KPIs](18.png)**
 
 ---
  💡 Analysis Performed
-* **Country Analysis:** Analyzing performance by market[cite: 1].
-* **Product Analysis:** Identifying high-volume vs. high-margin products[cite: 1].
+* **Country Analysis:** Analyzing performance by market.
+* **Product Analysis:** Identifying high-volume vs. high-margin products.
 * **Pareto (80/20) Analysis:** Understanding revenue contribution.
-**![Regional Analysis](21.png)**[cite: 1]
+**![Regional Analysis](21.png)**
 
 ---
 
  🎯 Project Objective
-To demonstrate real-world SQL capabilities in building data cleaning pipelines, performing business analysis, and extracting actionable insights for decision-making[cite: 1].
+To demonstrate real-world SQL capabilities in building data cleaning pipelines, performing business analysis, and extracting actionable insights for decision-making
 
 ---
 
  👨‍💻 Author
-Omar Essam[cite: 1]
+   Omar Essam
+
+
+
+
+
 
